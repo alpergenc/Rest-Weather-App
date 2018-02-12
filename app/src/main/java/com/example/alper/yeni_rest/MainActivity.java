@@ -226,7 +226,7 @@ public class MainActivity extends AppCompatActivity {
                                     JSONObject hdurum= list.getJSONObject(0).getJSONArray("weather").getJSONObject(0);
                                     String durum = hdurum.get("main").toString();
 
-                                    JSONObject hdurum_y= list.getJSONObject(0).getJSONArray("weather").getJSONObject(0);
+                                    JSONObject hdurum_y= list.getJSONObject(8).getJSONArray("weather").getJSONObject(0);
                                     String durum_y = hdurum_y.get("main").toString();
 
                                     if(c_name.equals("Earth")){
